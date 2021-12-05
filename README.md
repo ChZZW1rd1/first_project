@@ -1,3 +1,2 @@
-# first_project
-# so i need to create a python bot
-#
+# пока здесь нет ничего
+# кроме кода с ботом
