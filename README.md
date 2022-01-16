@@ -1,2 +1,2 @@
-# пока здесь нет ничего
-# кроме кода с ботом
+# nothing interesting
+# just bot practicing
