@@ -1,6 +1,14 @@
 import telebot
+import os
+from dotenv import load_dotenv
 
-bot = telebot.TeleBot(BOT_TOKEN, parse_mode=None)
+
+load_dotenv('.env.local')
+
+
+TOKEN = os.getenv("TELEGRAM_TOKEN")
+WEATHER_API = os.getenv("WEATHER_API")
+bot = telebot.TeleBot(TOKEN)
 
 
 @bot.message_handler(commands=['start', 'help'])

@@ -66,8 +66,8 @@ testMain.py
 .DS_Store
 
 # Environments
-.env
 .env.local
+.env
 .venv
 env/
 venv/
